@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selfwork Bootstrap Grid System
+    </title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+    
+    
+    <!--  Utilizza il progetto dell’esercitazione precedente, modificandolo come segue:
+    utilizza il component navbar di Bootstrap.
+    trasforma gli articoli sotto l’header in card.
+    aggiungi un carosello sotto le card.
+    aggiungi un accordion che simula delle FAQ (Frequently Asked Questions). -->
+    
+</head>
+
+<body>    
+    <nav class="navbar fixed-top bg-warning justify-content-center align-items-center">
+        <div class="container-fluid justify-content-center align-items-center">
+            
+            <div class="row navbar-text p-0">
+                <h4 class="m-0 text-center">Blog di cucina tipica siciliana</h4>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="vh-100 m-0"> 
+        <div class="container-fluid vh-100 justify-content-center align-items-center">
+            <div class="row vh-100 justify-content-center align-items-center">
+                <div class="col">
+                    <h1 class="titolo text-center m-0 title">Blog di cucina tipica siciliana</h1>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </header>
+    
+    <main class="container vh-100">
+        
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center my-5">Ricette della tradizione siciliana</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 pb-3">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="https://www.giallozafferano.it/images/235-23564/Spaghetti-alla-Norma_450x300.jpg" class="card-img-top" alt="piatto di pasta alla norma">
+                    <div class="card-body">
+                        <h5 class="card-title">Pasta alla Norma</h5>
+                        <p class="card-text cols-equal">I profumi e i sapori della Sicilia, terra magica e magnetica, solare e bellissima da Nord a Sud e da Ovest ad Est. Proprio della parte Est è originaria questa ricetta: la pasta alla Norma. E' uno dei simboli della cucina isolana, questa specialità catanese venne realizzata come omaggio culinario alla più bella opera del celebre compositore Vincenzo Bellini: la Norma. Un primo piatto di pasta gustoso condito con sugo di pomodoro fresco e melanzane fritte, come da tradizione, tagliate a fette. Ma non sarebbe pasta alla Norma senza l'aggiunta di spicchi d'aglio, foglie di basilico fresco e, ovviamente, una generosa grattugiata di ricotta salata di pecora rigorosamente siciliana, aggiunta direttamente sui piatti. Melina, proprietaria della trattoria a gestione famigliare U Fucularu di Catania, insieme alla figlia Alessia ci mostra e spiega i semplici segreti di questo piatto straordinario che prepara nel suo locale da decenni, come farebbe per la sua famiglia!</p>
+                        <a href="https://ricette.giallozafferano.it/Spaghetti-alla-Norma.html" target="_blank" class="btn btn-primary button-custom">Leggi la ricetta</a>
+                    </div>      
+                </div>           
+            </div>
+            
+            <div class="col-12 col-md-6 col-xl-4 pb-3">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="https://www.giallozafferano.it/images/2-247/Arancini-di-riso_450x300.jpg" class="card-img-top" alt="arancini di riso">
+                    <div class="card-body">
+                        <h5 class="card-title">Arancini</h5>
+                        <p class="card-text cols-equal">Gli arancini di riso (o arancine), vanto della cucina siciliana, sono dei piccoli timballi adatti ad essere consumati sia come spuntino che come antipasto, primo piatto o addirittura piatto unico. In Sicilia si trovano ovunque e in ogni momento, sempre caldi e fragranti nelle molte friggitorie, insieme a cazzilli e panelle: di città in città spesso cambiano forma e dimensioni, assumendo fattezze ovali, a pera o rotonde, a seconda del ripieno. Si possono contare circa 100 varianti: dalla più classica al ragù e al prosciutto, a quelle più originali come gli arancini di spaghetti, gli arancini al pistacchio, gli arancini agli spinaci e gli arancini con ragù di fagioli oppure addirittura gli arancini al forno! Persino nella cucina campana c'è una versione molto simile conosciuta come "palle di riso" e che si abbina sempre agli altri fritti tipici, comprese le frittelle di sciurilli.</p>
+                        <a href="https://ricette.giallozafferano.it/Arancini-di-riso.html" target="_blank" class="btn btn-primary button-custom">Leggi la ricetta</a>
+                    </div>      
+                </div>           
+            </div>
+            
+            <div class="col-12 col-md-6 col-xl-4 pb-3">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="https://www.giallozafferano.it/images/196-19625/Caponata_450x300.jpg" class="card-img-top" alt="piatto di caponata">
+                    <div class="card-body">
+                        <h5 class="card-title">Caponata</h5>
+                        <p class="card-text cols-equal">La cucina siciliana affonda le proprie radici nella tradizione povera, basata soprattutto su alcuni ingredienti tipici come le melanzane, protagoniste indiscusse della caponata, il ghiotto contorno che vi presentiamo oggi. Già comuni ad altre ricette tipiche, come la pasta alla norma e la parmigiana di melanzane, insieme a basilico e pomodoro creano un mix di profumi, colori e sapori che richiama le suggestioni di una terra splendida. L'estensione della superficie della Sicilia consente di avere numerose declinazioni della caponata. Di provincia in provincia ma anche di famiglia in famiglia ognuno ha la sua ricetta perfetta: con o senza uva passa, con o senza concentrato... basta spostarsi di qualche metro per scoprire una caponata sempre diversa, ma tutte con un'inconfondibile denominatore comune: l'uso del condimento agrodolce, che regala alle verdure un sapore unico. Il nostro consiglio? Provare con tutte le versioni possibili fino a trovare la vostra preferita, da tramandare anche nella vostra famiglia!</p>
+                        <a href="https://ricette.giallozafferano.it/Caponata.html" target="_blank" class="btn btn-primary button-custom">Leggi la ricetta</a>
+                    </div>      
+                </div>           
+            </div>
+        </div>
+        
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12">
+                <h2 class="text-center mt-5 pb-1">Carosello</h2>
+            </div>
+            
+            <div class="col-8 mb-5">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade mx-auto">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5P2lBZSxi0nU0dAYlPZIGKasnhQ2-iABvXg&s" class="d-block w-100 carosello-img" alt="agrumi con sicilia e mare di sfondo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn-static.dagospia.com/img/patch/08-2023/cibo-in-sicilia-1876215.jpg" class="d-block w-100 carosello-img" alt="sicilia con vari piatti tipici">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.getyourguide.com/img/tour/64022106052a7.jpeg/145.jpg" class="d-block w-100 carosello-img" alt="fetta di parmigiana">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12">
+                <h2 class="text-center mt-5 pb-1">F.A.Q.</h2>
+            </div>
+            
+            <div class="col-10 mb-5">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Si mangia bene in sicilia?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Sì, la gente rimane sempre abbastanza soddisfatta.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Fa caldo in Sicilia?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Sì soprattutto nella zona costiera. Nell'entroterra la temperatura è notevolmente più bassa, come naturalmente in cima all'Etna.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Quanti piatti siciliani esistono?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Quantificarli sarebbe impossibile, dato che ogni singola zona, città o piccolo paese di montagna conserva numerosi piatti della propria tradizione locale.</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-12 footbar">
+                <h2 class="text-center pb-5">
+                    Ci vediamo in Sicilia!
+                </h2>
+            </div>
+
+
+        </div>
+
+
+        
+    </main>
+   
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>

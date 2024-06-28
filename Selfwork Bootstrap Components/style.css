@@ -1,0 +1,43 @@
+*{
+  font-family: "Urbanist", sans-serif;
+}
+
+:root {
+  --primary-color:rgba(255, 255, 0, 0.4);
+}
+
+nav{
+  height: 70px;
+  z-index: 5;
+}
+
+header{
+  background-image: url(./media/rustici.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.titolo{
+  color: red;
+  background-color:var(--primary-color);
+  letter-spacing: 10px;
+  font-size: 5vh;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+.cols-equal{
+  min-height: 750px;
+
+}
+
+.carosello-img{
+  height: 50vh;
+  width: 100%;
+}
+
+.footbar{
+  color: red;
+}
